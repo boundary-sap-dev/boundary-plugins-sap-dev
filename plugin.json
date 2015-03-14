@@ -1,0 +1,5 @@
+{
+ "description" : "Provides per core CPU utilization",
+ "command" : "java index $(pollInterval)",
+ "metrics" : ["CPU_CORE_FD021"]
+}
