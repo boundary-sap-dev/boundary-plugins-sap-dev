@@ -16,7 +16,7 @@ public class index {
 			try {
 				Thread.sleep(poll);
 				System.out.println(metrica);
-				System.err.println(metrica);
+				//System.err.println(metrica);
 			} catch (InterruptedException e) {
 				System.err.println(e.getMessage());
 				System.exit(1);
