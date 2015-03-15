@@ -1,5 +1,30 @@
 {
  "description" : "Provides per core CPU utilization",
- "command" : "java index $(pollInterval)",
- "metrics" : ["CPU_CORE_FD021"]
+ "command" : "java -jar index.jar $(pollInterval)",
+ "metrics" : ["CPU_CORE_FD021"],
+   "paramSchema" : [
+    {
+      "title" : "Hostname",
+      "name" : "hostname",
+      "description" : "The hostname or IP address of the JMX Region server",
+      "type" : "string",
+      "default" : "localhost",
+      "required" : true
+    },
+    {
+      "title" : "Port",
+      "name" : "port",
+      "description" : "The port of the JMX Region server",
+      "type" : "string",
+      "default" : "10102",
+      "required" : true
+    },
+    {
+      "title": "Poll Seconds",
+      "name": "pollSeconds",
+      "description": "How often should the plugin poll the JMX endpoint",
+      "type" : "string",
+      "default" : 5
+    }
+  ]
 }
