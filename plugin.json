@@ -1,12 +1,12 @@
 {
  "description" : "Provides per core CPU utilization",
- "command" : "java -jar index.jar $(pollInterval)",
+ "command" : "java -jar index.jar $(pollInterval) $(hostname) $(port) ",
  "metrics" : ["CPU_CORE_FD021"],
    "paramSchema" : [
     {
       "title" : "Hostname",
       "name" : "hostname",
-      "description" : "The hostname or IP address of the JMX Region server",
+      "description" : "The hostname or IP address of Socket SAP server",
       "type" : "string",
       "default" : "localhost",
       "required" : true
@@ -14,17 +14,10 @@
     {
       "title" : "Port",
       "name" : "port",
-      "description" : "The port of the JMX Region server",
+      "description" : "The port of the Socket SAP server",
       "type" : "string",
-      "default" : "10102",
+      "default" : "6100",
       "required" : true
-    },
-    {
-      "title": "Poll Seconds",
-      "name": "pollSeconds",
-      "description": "How often should the plugin poll the JMX endpoint",
-      "type" : "string",
-      "default" : 5
     }
   ]
 }

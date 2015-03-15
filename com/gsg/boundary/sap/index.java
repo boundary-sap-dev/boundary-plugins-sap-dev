@@ -8,7 +8,11 @@ public class index {
 		if (args.length>0) {
 			System.err.println("Nro parameters :"+args.length);
 			System.err.println("Polling time :"+args[0]);
-			poll = Long.parseLong(args[0]); 
+			poll = Long.parseLong(args[0]);
+			if (args.length>=2) {
+				System.err.println("Host :"+args[1]);
+				System.err.println("Port :"+args[2]);
+			}
 		}
 
 		while (true ) {
