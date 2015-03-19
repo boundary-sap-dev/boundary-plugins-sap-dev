@@ -2,3 +2,4 @@
 .project
 *.class
 metricas.sh
+metricas-qa.sh
