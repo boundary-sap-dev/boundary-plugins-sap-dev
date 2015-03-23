@@ -1,6 +1,6 @@
 {
  "description" : "Provides SAP Server Metrics",
- "command" : "java -jar index.jar $(pollInterval) $(ashost) $(sysnr) $(client) $(user), $(passwd) ",
+ "command" : "java -jar index.jar $(pollInterval) $(ashost) $(sysnr) $(client) $(user), $(passwd), $(lang) ",
  "metrics" : [
 		"CPU_AVERAGE_PROCESSES_WAITING_5_MIN",
 		"CPU_IO_WAIT",
@@ -81,6 +81,14 @@
       "description" : "Password.",
       "type" : "string",
       "default" : "pwd",
+      "required" : true
+    },
+	{
+      "title" : "Language",
+      "name" : "lang",
+      "description" : "Logon languague.",
+      "type" : "string",
+      "default" : "EN",
       "required" : true
     }
   ]
