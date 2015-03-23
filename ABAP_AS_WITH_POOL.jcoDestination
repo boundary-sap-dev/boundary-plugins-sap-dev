@@ -7,5 +7,4 @@ jco.client.passwd=ides
 jco.client.user=IDADMIN
 jco.client.sysnr=00
 jco.destination.pool_capacity=3
-#jco.client.ashost=54.210.107.84
 jco.client.ashost=172.31.22.106
