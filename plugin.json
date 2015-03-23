@@ -1,6 +1,6 @@
 {
  "description" : "Provides SAP Server Metrics",
- "command" : "java -jar index.jar $(pollInterval) $(ashost) $(sysnr) $(client) $(user), $(passwd), $(lang) ",
+ "command" : "java -jar index.jar $(pollInterval) $(ashost) $(sysnr) $(client) $(user) $(passwd) $(lang) ",
  "metrics" : [
 		"CPU_AVERAGE_PROCESSES_WAITING_5_MIN",
 		"CPU_IO_WAIT",
