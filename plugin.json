@@ -44,19 +44,43 @@
 		],
  "paramSchema" : [
     {
-      "title" : "Hostname",
-      "name" : "hostname",
-      "description" : "The hostname or IP address of Socket SAP server",
+      "title" : "Application Server",
+      "name" : "ashost",
+      "description" : "The name of the host to which you want to connect.",
       "type" : "string",
-      "default" : "localhost",
+      "default" : "172.31.22.106",
       "required" : true
     },
     {
-      "title" : "Port",
-      "name" : "port",
-      "description" : "The port of the Socket SAP server",
+      "title" : "Instance Number",
+      "name" : "sysnr",
+      "description" : "(Formerly: System Number) Specify the instance number (such as 00) of the SAP system to which you want to connect.",
       "type" : "string",
-      "default" : "6100",
+      "default" : "00",
+      "required" : true
+    },
+	{
+      "title" : "System ID",
+      "name" : "client",
+      "description" : "Specify the system ID of the SAP system to which you want to connect.",
+      "type" : "string",
+      "default" : "800",
+      "required" : true
+    },
+	{
+      "title" : "User",
+      "name" : "user",
+      "description" : "User RFC connection.",
+      "type" : "string",
+      "default" : "user",
+      "required" : true
+    },
+	{
+      "title" : "Password",
+      "name" : "passwd",
+      "description" : "Password.",
+      "type" : "string",
+      "default" : "pwd",
       "required" : true
     }
   ]
