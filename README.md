@@ -4,9 +4,9 @@ Collects metrics from a SAP R/3 Server.
 
 ### Prerequisites
 
-|     OS    | Linux | Windows | SmartOS | OS X |
-|:----------|:-----:|:-------:|:-------:|:----:|
-| Supported |   v   |    v    |         |      |
+|     OS    | Linux | Windows |
+|:----------|:-----:|:-------:|
+| Supported |   v   |    v    |
 
 
 |  Runtime | node.js | Java  | SAP JCo |
