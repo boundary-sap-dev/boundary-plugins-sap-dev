@@ -32,16 +32,16 @@
 		"SAP_FILESYSTEM_FREE_PORC"],
  "dashboards" : [
 		{"name" : "SAP Server CPU",
-        "layout" : "d-w=3&d-h=2&d-pad=5&d-bg=none&d-g-CPU_AVERAGE_PROCESSES_WAITING_5_MIN=0-0-1-1&d-g-CPU_IO_WAIT=1-0-1-1&d-g-CPU_SYSTEM_UTILIZATION=2-0-1-1&d-g-CPU_USER_UTILIZATION=0-1-1-1&d-g-CPU_IDLE=1-1-1-1&d-g-CPU_NUMBER_OF_CPUS=2-1-1-1-t&d-g-CPU_VIRTUALIZATION_VIRTUAL_SYSTEM_CAPACITY_MAXIMUM=2-1-1-1-b" },
+        "layout" : "d-w=3&d-h=2&d-pad=5&d-bg=none&d-g-SAP_CPU_AVERAGE_PROCESSES_WAITING_5_MIN=0-0-1-1&d-g-SAP_CPU_IO_WAIT=1-0-1-1&d-g-SAP_CPU_SYSTEM_UTILIZATION=2-0-1-1&d-g-SAP_CPU_USER_UTILIZATION=0-1-1-1&d-g-SAP_CPU_IDLE=1-1-1-1&d-g-SAP_CPU_NUMBER_OF_CPUS=2-1-1-1-t&d-g-SAP_CPU_VIRTUALIZATION_VIRTUAL_SYSTEM_CAPACITY_MAXIMUM=2-1-1-1-b" },
 		
 		{"name" : "SAP Server Memory",
-        "layout" : "d-w=3&d-h=2&d-pad=5&d-bg=none&d-g-MEMORY_PAGE_IN=1-0-1-1-t&d-g-MEMORY_PAGE_OUT=1-0-1-1-b&d-g-MEMORY_PAGE_IN_OF_RAM=2-0-1-1-t&d-g-MEMORY_PAGE_OUT_OF_RAM=2-0-1-1-b&d-g-MEMORY_FREE_SWAP_SIZE=1-1-1-1&d-g-MEMORY_FREE=0-0-1-1&d-g-MEMORY_ACTUAL_SWAP_SIZE=0-1-1-1&d-g-MEMORY_CONFIGURED_SWAP_SIZE=2-1-1-1-t&d-g-MEMORY_MAXIMUM_SWAP_SIZE=2-1-1-1-b" },
+        "layout" : "d-w=3&d-h=2&d-pad=5&d-bg=none&d-g-SAP_MEMORY_PAGE_IN=1-0-1-1-t&d-g-SAP_MEMORY_PAGE_OUT=1-0-1-1-b&d-g-SAP_MEMORY_PAGE_IN_OF_RAM=2-0-1-1-t&d-g-SAP_MEMORY_PAGE_OUT_OF_RAM=2-0-1-1-b&d-g-SAP_MEMORY_FREE_SWAP_SIZE=1-1-1-1&d-g-SAP_MEMORY_FREE=0-0-1-1&d-g-SAP_MEMORY_ACTUAL_SWAP_SIZE=0-1-1-1&d-g-SAP_MEMORY_CONFIGURED_SWAP_SIZE=2-1-1-1-t&d-g-SAP_MEMORY_MAXIMUM_SWAP_SIZE=2-1-1-1-b" },
 		
 		{"name" : "SAP Server Disk",
-        "layout" : "d-w=3&d-h=2&d-pad=5&d-bg=none&d-g-DISK_QUEUE=0-0-1-1&d-g-DISK_SERV_TIME=1-0-1-1&d-g-DISK_WAIT_TIME=2-0-1-1&d-g-DISK_TRANSFKBS=0-1-1-1&d-g-DISK_OPERATNS=1-1-1-1&d-g-DISK_RESP_TIME=2-1-1-1-t&d-g-DISK_UTIL_PORC=2-1-1-1-b" },
+        "layout" : "d-w=3&d-h=2&d-pad=5&d-bg=none&d-g-SAP_DISK_QUEUE=0-0-1-1&d-g-SAP_DISK_SERV_TIME=1-0-1-1&d-g-SAP_DISK_WAIT_TIME=2-0-1-1&d-g-SAP_DISK_TRANSFKBS=0-1-1-1&d-g-SAP_DISK_OPERATNS=1-1-1-1&d-g-SAP_DISK_RESP_TIME=2-1-1-1-t&d-g-SAP_DISK_UTIL_PORC=2-1-1-1-b" },
 		
 		{"name" : "SAP Server Filesystem",
-        "layout" : "d-w=3&d-h=2&d-pad=5&d-bg=none&d-g-FILESYSTEM_FREE_MB=0-0-1-1&d-g-FILESYSTEM_FREE_PORC=1-0-1-1&d-g-FILESYSTEM_SIZE=2-0-1-1" }
+        "layout" : "d-w=3&d-h=2&d-pad=5&d-bg=none&d-g-SAP_FILESYSTEM_FREE_MB=0-0-1-1&d-g-SAP_FILESYSTEM_FREE_PORC=1-0-1-1&d-g-SAP_FILESYSTEM_SIZE=2-0-1-1" }
 		],
  "paramSchema" : [
     {
